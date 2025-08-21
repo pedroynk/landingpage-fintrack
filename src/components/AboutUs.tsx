@@ -15,39 +15,39 @@ interface MemberProps {
 
 const teamMembers: MemberProps[] = [
   {
-    name: "Allanys",
+    name: "Allanys Spindola",
     image: "/src/assets/allanys.jpeg",
-    role: "Desenvolvedora",
+    role: "Analista de Documentação",
   },
   {
-    name: "Leo",
+    name: "Leonardo Rodrigues",
     image: "/src/assets/leo.jpeg",
-    role: "Desenvolvedor",
+    role: "Lider de Equipe Técnica",
   },
   {
-    name: "Luis",
+    name: "Luis Fellipe Fernandes",
     image: "/src/assets/luis.jpeg",
     role: "Desenvolvedor",
   },
   {
-    name: "Pedro",
+    name: "Pedro Lucas",
     image: "/src/assets/pedro.jpeg",
     role: "Desenvolvedor",
   },
   {
-    name: "Ricardo",
+    name: "José Ricardo",
     image: "/src/assets/ricardo.jpeg",
-    role: "Desenvolvedor",
+    role: "Analista de Documentação",
   },
   {
-    name: "Thigas",
+    name: "Thiago Simões",
     image: "/src/assets/thigas.jpeg",
-    role: "Desenvolvedor",
+    role: "Lider de Equipe Qualidade",
   },
   {
-    name: "Vitor",
+    name: "Victor Ramalho",
     image: "/src/assets/vitor.jpeg",
-    role: "Desenvolvedor",
+    role: "Analista de Documentação",
   },
 ];
 
