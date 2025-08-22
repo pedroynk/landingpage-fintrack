@@ -6,6 +6,14 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "./ui/carousel";
+import allanys from "@/assets/allanys.jpeg";
+import leo from "@/assets/leo.jpeg";
+import luis from "@/assets/luis.jpeg";
+import pedro from "@/assets/pedro.jpeg";
+import ricardo from "@/assets/ricardo.jpeg";
+import thiago from "@/assets/thigas.jpeg";
+import vitor from "@/assets/vitor.jpeg";
+
 
 interface MemberProps {
   name: string;
@@ -16,37 +24,37 @@ interface MemberProps {
 const teamMembers: MemberProps[] = [
   {
     name: "Allanys Spindola",
-    image: "/src/assets/allanys.jpeg",
+    image: allanys,
     role: "Analista de Documentação",
   },
   {
     name: "Leonardo Rodrigues",
-    image: "/src/assets/leo.jpeg",
+    image: leo,
     role: "Lider de Equipe Técnica",
   },
   {
     name: "Luis Fellipe Fernandes",
-    image: "/src/assets/luis.jpeg",
+    image: luis,
     role: "Desenvolvedor",
   },
   {
     name: "Pedro Lucas",
-    image: "/src/assets/pedro.jpeg",
+    image: pedro,
     role: "Desenvolvedor",
   },
   {
     name: "José Ricardo",
-    image: "/src/assets/ricardo.jpeg",
+    image: ricardo,
     role: "Analista de Documentação",
   },
   {
     name: "Thiago Simões",
-    image: "/src/assets/thigas.jpeg",
+    image: thiago,
     role: "Lider de Equipe Qualidade",
   },
   {
     name: "Victor Ramalho",
-    image: "/src/assets/vitor.jpeg",
+    image: vitor,
     role: "Analista de Documentação",
   },
 ];
